@@ -1,0 +1,30 @@
+h1 {
+    background-color: orange;
+    color: white;
+}
+
+
+#instructions {
+    background-color:wheat;
+    color: green;
+}
+
+#randomNumber {
+    background-color: green;
+    color: purple;
+}
+
+#winsLosses {
+    background-color: turquoise;
+    color: green;
+}
+
+#totalScoreText {
+    background-color: teal;
+    color: white;
+}
+
+#totalScoreNumber {
+    background-color: teal;
+    color: white;
+}
