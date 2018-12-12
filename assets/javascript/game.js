@@ -21,13 +21,13 @@ var totalScoreNumberText = document.getElementById("totalScoreNumber-text");
 // Display what you want the text to say/contain.
 winsText.textContent = "Wins: " + wins;
 lossesText.textContent = "Losses: " + losses;
-computerChoiceText.textContent = "Computer Choice: " + computerChoice;
+computerChoiceText.textContent = computerChoice;
 totalScoreNumberText.textContent = totalScoreNumber;
 
 
 // Build out your on click functions.
 window.onload = function() {
- $("#letsPlay").on("click", startGame);
+ $(".btn").on("click", startGame);
  $("#crystal1").on("click", crystal1);
  $("#crystal2").on("click", crystal2);
  $("#crystal3").on("click", crystal3);
@@ -36,6 +36,7 @@ window.onload = function() {
 
 // Run function to randomly assign values to each crystal and hide lets play button when let's plan is clicked.
 function startGame() {
+  computerChoice = (Math.floor(Math.random() * 100) +1);
   crystal1 = (Math.floor(Math.random() * 10) + 1);
   crystal2 = (Math.floor(Math.random() * 10) + 1);
   crystal3 = (Math.floor(Math.random() * 10) + 1);

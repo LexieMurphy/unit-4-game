@@ -21,28 +21,40 @@
         <a class="btn btn-primary btn-lg" role="button">Let's Play!</a>
     </div>
 
-    <div id="computerChoice">
-        <p id="computerChoice-text"></p>
-    </div>
-
-    <div id="winsLosses">
-        <p id="wins-text"></p>
-        <p id="losses-text"></p>
+    <div class="scoreCards">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="computerChoice">Computer Choice:</h5>
+                        <p id="computerChoice-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <p id="wins-text"></p>
+                        <p id="losses-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="totalScoreNumber">Your total score is:</h5>
+                        <p id="totalScoreNumber-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="crystalImages">
-        <img id="crystal1" src="./assets/images/crystal1.png" alt="Crystal1" style="width:60px">
-        <img id="crystal2" src="./assets/images/crystal2.png" alt="Crystal2" style="width:60px">
-        <img id="crystal3" src="./assets/images/crystal3.png" alt="Crystal3" style="width:60px">
-        <img id="crystal4" src="./assets/images/crystal4.png" alt="Crystal4" style="width:60px">
-    </div>
-
-
-    </div>
-
-    <div id="totalScoreNumber">
-        <p>Your total score is:</p>
-        <p id="totalScoreNumber-text"></p>
+        <img id="crystal1" src="./assets/images/crystal1.png" alt="Crystal1" style="width:150px">
+        <img id="crystal2" src="./assets/images/crystal2.png" alt="Crystal2" style="width:150px">
+        <img id="crystal3" src="./assets/images/crystal3.png" alt="Crystal3" style="width:150px">
+        <img id="crystal4" src="./assets/images/crystal4.png" alt="Crystal4" style="width:150px">
     </div>
 
     <script type="text/javascript" src="./assets/javascript/game.js">
