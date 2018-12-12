@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>unit-4-game</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href=assets/css/style.css> </head> <body>
 
     <div class="jumbotron">
@@ -18,7 +19,7 @@
             gets above the random number.</p>
         <p>The value of each crystal is hidden from you until you click it.</p>
         <p>Each time when the game starts, the game will change the values of each crystal.</p>
-        <a class="btn btn-primary btn-lg" role="button">Let's Play!</a>
+        <a id="letsPlay" class="btn btn-primary btn-lg" role="button">Let's Play!</a>
     </div>
 
     <div class="scoreCards">
@@ -51,10 +52,10 @@
     </div>
 
     <div id="crystalImages">
-        <img id="crystal1" src="./assets/images/crystal1.png" alt="Crystal1" style="width:150px">
-        <img id="crystal2" src="./assets/images/crystal2.png" alt="Crystal2" style="width:150px">
-        <img id="crystal3" src="./assets/images/crystal3.png" alt="Crystal3" style="width:150px">
-        <img id="crystal4" src="./assets/images/crystal4.png" alt="Crystal4" style="width:150px">
+        <a id="crystal1"><img src="./assets/images/crystal1.png" alt="Crystal1" style="width:150px"></a>
+        <a id="crystal2"><img src="./assets/images/crystal2.png" alt="Crystal2" style="width:150px"></a>
+        <a id="crystal3"><img src="./assets/images/crystal3.png" alt="Crystal3" style="width:150px"></a>
+        <a id="crystal4"><img src="./assets/images/crystal4.png" alt="Crystal4" style="width:150px"></a>
     </div>
 
     <script type="text/javascript" src="./assets/javascript/game.js">

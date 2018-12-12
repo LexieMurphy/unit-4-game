@@ -23,6 +23,7 @@ body {
     border-width: 5px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
     padding: 15px;
 }
 
@@ -91,31 +92,3 @@ body {
     margin-top: 20px;
     width: 1200px;
 }
-
-
-
-
-
-
-
-
-#computerChoice {
-    background-color: green;
-    color: purple;
-}
-
-#winsLosses {
-    background-color: turquoise;
-    color: green;
-}
-
-#totalScoreText {
-    background-color: teal;
-    color: white;
-}
-
-#totalScoreNumber {
-    background-color: teal;
-    color: white;
-}
-
