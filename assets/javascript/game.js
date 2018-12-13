@@ -30,11 +30,11 @@ $(document).ready(function () {
   // Run function to randomly assign values to each crystal and hide lets play button when let's plan is clicked.
   function startGame() {
     console.log("started");
-    computerChoice = (Math.floor(Math.random() * 100) + 1);
-    crystal1 = (Math.floor(Math.random() * 10) + 1);
-    crystal2 = (Math.floor(Math.random() * 10) + 1);
-    crystal3 = (Math.floor(Math.random() * 10) + 1);
-    crystal4 = (Math.floor(Math.random() * 10) + 1);
+    computerChoice = (Math.floor(Math.random() * 120) + 19);
+    crystal1 = (Math.floor(Math.random() * 12) + 1);
+    crystal2 = (Math.floor(Math.random() * 12) + 1);
+    crystal3 = (Math.floor(Math.random() * 12) + 1);
+    crystal4 = (Math.floor(Math.random() * 12) + 1);
     totalScoreNumber = 0;
     $("#crystalImages").show();
     updateScreen();
