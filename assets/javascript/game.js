@@ -11,6 +11,7 @@ var playAgain = false;
 
 // Build out your on click functions.
 $(document).ready(function () {
+  $("#crystalImages").hide();
   $("#letsPlay").on("click", startGame);
   $("#crystal1").on("click", crystal1);
   $("#crystal2").on("click", crystal2);
@@ -35,6 +36,7 @@ $(document).ready(function () {
     crystal3 = (Math.floor(Math.random() * 10) + 1);
     crystal4 = (Math.floor(Math.random() * 10) + 1);
     totalScoreNumber = 0;
+    $("#crystalImages").show();
     updateScreen();
   }
 
@@ -100,9 +102,6 @@ $(document).ready(function () {
     }
 
   };
-
-
-
 
 });
 
