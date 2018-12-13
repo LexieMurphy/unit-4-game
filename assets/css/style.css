@@ -91,5 +91,6 @@ body {
     margin-right: auto;
     margin-top: 20px;
     width: 1200px;
-    display: block;
+    display: flex;
+    justify-content: center;
 }
