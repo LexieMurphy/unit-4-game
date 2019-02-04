@@ -18,3 +18,5 @@ In this activity we will create a number guessing game.
 * **NOTE:** You can start the game by clicking the "Let's Play" button. 
 
 * **HINT:** Clicking the "Let's Play" button will reset the game if you would like to start over.
+
+https://lexiemurphy.github.io/unit-4-game/
